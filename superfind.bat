@@ -1,7 +1,7 @@
 @echo off
 
 ::Created and tested by falconflame a.k.a dr. F
-::Just a simple script to find specific file with batch
+::Just a simple script to find specific file containing specific string with batch
 
 ::Remember the model --> for i in (set) do (command)
 ::Change set to any extension you like
